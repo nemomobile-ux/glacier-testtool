@@ -22,7 +22,7 @@ Page {
 
 
     headerTools: HeaderToolsLayout {
-        title: qsTr("Vibrations")
+        title: qsTr("Non graphical feedback")
         showBackButton: true
     }
 

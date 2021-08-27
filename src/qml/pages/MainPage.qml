@@ -31,7 +31,12 @@ Page {
             pageUrl: "AudioPage.qml"
         }
         ListElement {
-            name: qsTr("Vibrations")
+            name: qsTr("Haptics")
+            total: 1;
+            pageUrl: "HapticsPage.qml"
+        }
+        ListElement {
+            name: qsTr("Non graphical feedback")
             total: 1;
             pageUrl: "NgfPage.qml"
         }
