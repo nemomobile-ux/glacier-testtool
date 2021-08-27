@@ -43,6 +43,14 @@ Page {
         }
 
         Label {
+            text: feedback.connected ? qsTr("Connected") : qsTr("Not connected")
+        }
+
+        Label {
+            text: feedback.event
+        }
+
+        Label {
             text: (feedback.status === NonGraphicalFeedback.Stopped)
                   ? qsTr("Stopped") :
                     (feedback.status === NonGraphicalFeedback.Failed)
