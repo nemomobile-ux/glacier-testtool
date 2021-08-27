@@ -20,18 +20,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>X axis &gt; 5 m/s²</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Y axis &gt; 5 m/s²</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Z axis &gt; 5 m/s²</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Lying on the table</source>
         <translation type="unfinished"></translation>
     </message>
@@ -40,7 +28,27 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>x = %1; y = %2; z = %3; </source>
+        <source>x = %1; y = %2; z = %3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>vector = %1 m/s²</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>movement = %2 m/s²</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>X axis &gt; 9 m/s²</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Y axis &gt; 9 m/s²</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Z axis &gt; 9 m/s²</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

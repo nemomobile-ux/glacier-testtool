@@ -36,7 +36,17 @@ Page {
             spacing: Theme.itemSpacingSmall
             Label {
                 id: testLabel
-                text: "x = -; y = -; z = -"
+                text: qsTr("x = %1; y = %2; z = %3").arg("-").arg("-").arg("-")
+                width: parent.width;
+            }
+            Label {
+                id: vectorLabel
+                text: qsTr("vector = %1 m/s²").arg("-")
+                width: parent.width;
+            }
+            Label {
+                id: movementLabel
+                text: qsTr("movement = %2 m/s²").arg("-")
                 width: parent.width;
             }
             Label {
@@ -91,7 +101,7 @@ Page {
             ListViewItemWithActions {
                 id: testX
                 property bool passed: false;
-                label: qsTr("X axis > 5 m/s²")
+                label: qsTr("X axis > 9 m/s²")
                 icon: (passed) ? "image://theme/check" : "image://theme/times";
                 showNext: false
             }
@@ -99,7 +109,7 @@ Page {
             ListViewItemWithActions {
                 id: testY
                 property bool passed: false;
-                label: qsTr("Y axis > 5 m/s²")
+                label: qsTr("Y axis > 9 m/s²")
                 icon: (passed) ? "image://theme/check" : "image://theme/times";
                 showNext: false
             }
@@ -107,7 +117,7 @@ Page {
             ListViewItemWithActions {
                 id: testZ
                 property bool passed: false;
-                label: qsTr("Z axis > 5 m/s²")
+                label: qsTr("Z axis > 9 m/s²")
                 icon: (passed) ? "image://theme/check" : "image://theme/times";
                 showNext: false
             }
@@ -146,10 +156,11 @@ Page {
         alwaysOn: true
         dataRate: 10
         onReadingChanged: {
-            testLabel.text = qsTr("x = %1; y = %2; z = %3; ").arg(Number(reading.x).toFixed(2)).arg(Number(reading.y).toFixed(2)).arg(Number(reading.z).toFixed(2))
+            testLabel.text = qsTr("x = %1; y = %2; z = %3").arg(Number(reading.x).toFixed(2)).arg(Number(reading.y).toFixed(2)).arg(Number(reading.z).toFixed(2))
             var size = Math.sqrt(reading.x*reading.x + reading.y*reading.y + reading.z*reading.z)
             var size_minus_gravity = size - 9.81;
-
+            vectorLabel.text = qsTr("vector = %1 m/s²").arg(Number(size).toFixed(2))
+            movementLabel.text = qsTr("movement = %2 m/s²").arg(Number(size_minus_gravity).toFixed(2))
             if (xSeries.count > 100) {
                 xSeries.remove(0);
                 ySeries.remove(0);
