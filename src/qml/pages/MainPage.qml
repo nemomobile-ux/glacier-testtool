@@ -25,6 +25,16 @@ Page {
             total: 2;
             pageUrl: "OrientationPage.qml"
         }
+        ListElement {
+            name: qsTr("Audio")
+            total: 1;
+            pageUrl: "AudioPage.qml"
+        }
+        ListElement {
+            name: qsTr("Vibrations")
+            total: 1;
+            pageUrl: "NgfPage.qml"
+        }
     }
 
     ListView {
