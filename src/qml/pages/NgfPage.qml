@@ -47,7 +47,7 @@ Page {
         }
 
         Label {
-            text: feedback.event
+            text: qsTr("Event: %1").arg(feedback.event)
         }
 
         Label {
@@ -71,6 +71,7 @@ Page {
 
     NonGraphicalFeedback {
         id: feedback
+        event: "sms"
     }
 
 }
