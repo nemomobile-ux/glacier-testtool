@@ -26,6 +26,22 @@ Page {
             pageUrl: "OrientationPage.qml"
         }
         ListElement {
+            name: qsTr("Compass")
+            total: 1;
+            pageUrl: "CompassPage.qml"
+        }
+        ListElement {
+            name: qsTr("Ambient Light")
+            total: 1;
+            pageUrl: "LightPage.qml"
+        }
+        ListElement {
+            name: qsTr("Proximity")
+            total: 2;
+            pageUrl: "ProximityPage.qml"
+        }
+
+        ListElement {
             name: qsTr("Audio")
             total: 1;
             pageUrl: "AudioPage.qml"
