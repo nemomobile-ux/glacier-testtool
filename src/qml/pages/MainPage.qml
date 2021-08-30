@@ -40,6 +40,11 @@ Page {
             total: 1;
             pageUrl: "NgfPage.qml"
         }
+        ListElement {
+            name: qsTr("Touch test")
+            total: 1;
+            pageUrl: "TouchPage.qml"
+        }
     }
 
     ListView {
@@ -66,6 +71,7 @@ Page {
         }
 
     }
+
     ScrollDecorator {
         flickable: testList
     }
