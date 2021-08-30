@@ -11,5 +11,4 @@ import "pages"
 ApplicationWindow {
     id: main
     initialPage: MainPage{}
-
 }
