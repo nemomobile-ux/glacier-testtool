@@ -90,7 +90,6 @@ Page {
 
     Component.onCompleted: {
         compass.start();
-        compass.
     }
 
 }
