@@ -34,25 +34,34 @@ Page {
         columns: columnsCount
 
         Repeater{
+            id: repeater;
             model: itemCount
             delegate: Rectangle{
                 id: touchItem
+                property bool checked: false
                 width: itemWidth
                 height: itemHeight
-                color: "red"
+                color: checked ? "green" : "red"
+            }
+        }
 
-                MouseArea{
-                    anchors.fill: parent
-                    onClicked:{
-                        if(parent.color != "green") {
-                            parent.color = "green"
-                            checkedElements++
-                        }
-                    }
-                }
+    }
+
+    MouseArea{
+        anchors.fill: parent
+        onPositionChanged:  {
+
+            var coordX = parseInt(mouse.x / itemWidth)
+            var coordY = parseInt(mouse.y / itemHeight)
+            var index = coordY * columnsCount + coordX
+
+            if (!repeater.itemAt(index).checked) {
+                repeater.itemAt(index).checked = true;
+                checkedElements++
             }
         }
     }
+
 
     onCheckedElementsChanged: {
         if(checkedElements == itemCount) {
