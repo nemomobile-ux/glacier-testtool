@@ -5,6 +5,8 @@ import QtQuick.Controls 1.0
 import QtQuick.Controls.Nemo 1.0
 import QtQuick.Controls.Styles.Nemo 1.0
 
+import QtSensors 5.15
+
 Page {
     id: mainPage
 
@@ -21,6 +23,11 @@ Page {
             pageUrl: "AccelerometerPage.qml"
         }
         ListElement {
+            name: qsTr("Gyroscope")
+            total: 1;
+            pageUrl: "GyroscopePage.qml"
+        }
+        ListElement {
             name: qsTr("Orientation sensor")
             total: 2;
             pageUrl: "OrientationPage.qml"
@@ -29,6 +36,11 @@ Page {
             name: qsTr("Compass")
             total: 1;
             pageUrl: "CompassPage.qml"
+        }
+        ListElement {
+            name: qsTr("Magentometer")
+            total: 1;
+            pageUrl: "MagnetometerPage.qml"
         }
         ListElement {
             name: qsTr("Ambient Light")
@@ -92,4 +104,9 @@ Page {
         flickable: testList
     }
 
+
+     Component.onCompleted: {
+         var types = QmlSensors.sensorTypes();
+         console.log(types.join(", "));
+     }
 }
