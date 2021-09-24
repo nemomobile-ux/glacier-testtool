@@ -5,6 +5,7 @@ import QtQuick.Controls 1.0
 import QtQuick.Controls.Nemo 1.0
 import QtQuick.Controls.Styles.Nemo 1.0
 
+import org.nemomobile.folderlistmodel 1.0
 import Nemo.Ngf 1.0
 
 Page {
@@ -30,6 +31,34 @@ Page {
         width: parent.width;
         anchors.margins: Theme.itemSpacingMedium
         spacing: Theme.itemSpacingSmall
+
+
+        GlacierRoller {
+            id: simpleRoller
+            width: parent.width
+
+            clip: true
+            model: dirModel
+            label: qsTr("Select event")
+
+            onCurrentIndexChanged: {
+                var event = dirModel.data(currentIndex, "fileName").replace(/.ini$/g, "")
+                console.log(currentIndex + " " + event);
+                feedback.event = event
+            }
+
+            delegate: GlacierRollerItem{
+                Text{
+                    height: simpleRoller.itemHeight
+                    verticalAlignment: Text.AlignVCenter
+                    text: fileName.replace(/.ini$/g, "");
+                    color: Theme.textColor
+                    font.pixelSize: Theme.fontSizeMedium
+                    font.bold: (simpleRoller.activated && simpleRoller.currentIndex === index)
+                }
+            }
+        }
+
 
         Button {
             text: qsTr("test")
@@ -67,6 +96,13 @@ Page {
             text: qsTr("Have you had some feedback?")
         }
     }
+
+
+    FolderListModel {
+        id: dirModel
+        path: "/usr/share/ngfd/events.d"
+    }
+
 
 
     NonGraphicalFeedback {
