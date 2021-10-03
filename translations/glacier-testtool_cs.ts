@@ -352,7 +352,7 @@
     </message>
     <message>
         <location filename="../src/qml/pages/MainPage.qml" line="41"/>
-        <source>Magentometer</source>
+        <source>Magnetometer</source>
         <translation>Magnetometr</translation>
     </message>
     <message>
