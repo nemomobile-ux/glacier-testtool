@@ -38,7 +38,7 @@ Page {
             pageUrl: "CompassPage.qml"
         }
         ListElement {
-            name: qsTr("Magentometer")
+            name: qsTr("Magnetometer")
             total: 1;
             pageUrl: "MagnetometerPage.qml"
         }
