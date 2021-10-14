@@ -3,3 +3,4 @@ Type=Application
 Icon=/usr/share/glacier-testtool/icons/glacier-testtool.png
 Exec=/usr/bin/glacier-testtool
 Name=Hardware test
+Name[ru]=Аппаратный тест
