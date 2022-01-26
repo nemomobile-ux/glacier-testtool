@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="pl">
 <context>
     <name>AccelerometerPage</name>
     <message>
@@ -105,6 +105,70 @@
     </message>
 </context>
 <context>
+    <name>GyroscopePage</name>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="23"/>
+        <source>Gyroscope</source>
+        <translation>Żyroskop</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="39"/>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="95"/>
+        <source>x = %1; y = %2; z = %3</source>
+        <translation>x = %1; y = %2; z = %3</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="45"/>
+        <source>identifier: %1</source>
+        <translation>identyfikator: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="48"/>
+        <source>type: %1</source>
+        <translation>typ: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="51"/>
+        <source>description: %1</source>
+        <translation>opis: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="54"/>
+        <source>bufferSize: %1</source>
+        <translation>bufferSize (rozmiar buforu): %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="57"/>
+        <source>efficientBufferSize : %1</source>
+        <translation>efficientBufferSize: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="60"/>
+        <source>connected: %1</source>
+        <translation>połączony: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="63"/>
+        <source>skipDuplicates: %1</source>
+        <translation>skipDuplicates (pomiń duplikaty): %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="66"/>
+        <source>error: %1</source>
+        <translation>błąd: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="69"/>
+        <source>active: %1</source>
+        <translation>aktywny: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/GyroscopePage.qml" line="73"/>
+        <source>rate: %1</source>
+        <translation>rate: %1</translation>
+    </message>
+</context>
+<context>
     <name>HapticsPage</name>
     <message>
         <location filename="../src/qml/pages/HapticsPage.qml" line="25"/>
@@ -187,59 +251,142 @@
     </message>
 </context>
 <context>
+    <name>MagnetometerPage</name>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="24"/>
+        <source>Magnetometers</source>
+        <translation>Magnetometry</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="40"/>
+        <source>x = %1; y = %2; z = %3</source>
+        <translation>x = %1; y = %2; z = %3</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="44"/>
+        <source>identifier: %1</source>
+        <translation>identyfikator: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="47"/>
+        <source>type: %1</source>
+        <translation>typ: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="50"/>
+        <source>description: %1</source>
+        <translation>opis: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="53"/>
+        <source>bufferSize: %1</source>
+        <translation>bufferSize (rozmiar buforu): %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="56"/>
+        <source>efficientBufferSize : %1</source>
+        <translation>efficientBufferSize: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="59"/>
+        <source>connected: %1</source>
+        <translation>połączony: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="62"/>
+        <source>skipDuplicates: %1</source>
+        <translation>skipDuplicates (pomiń duplikaty): %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="65"/>
+        <source>error: %1</source>
+        <translation>błąd: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="68"/>
+        <source>active: %1</source>
+        <translation>aktywny: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="72"/>
+        <source>rate: %1</source>
+        <translation>rate: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="76"/>
+        <source>return geo values: %1</source>
+        <translation>zwróć wartość geograficzną: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="100"/>
+        <source>x = %1; y = %2; z = %3; c = %4</source>
+        <translation>x = %1; y = %2; z = %3; c = %4</translation>
+    </message>
+</context>
+<context>
     <name>MainPage</name>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="13"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="15"/>
         <source>Hardware tests</source>
         <translation>Testy sprzętowe</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="19"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="21"/>
         <source>Accelerometers</source>
         <translation>Akcelerometry</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="24"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="26"/>
+        <source>Gyroscope</source>
+        <translation>Żyroskop</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MainPage.qml" line="31"/>
         <source>Orientation sensor</source>
         <translation>Sensor orientacji</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="29"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="36"/>
         <source>Compass</source>
         <translation>Kompas</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="34"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="41"/>
+        <source>Magnetometer</source>
+        <translation>Magnetometer</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/MainPage.qml" line="46"/>
         <source>Ambient Light</source>
         <translation>Światło otoczenia</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="39"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="51"/>
         <source>Proximity</source>
         <translation>Sensor odległości</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="45"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="57"/>
         <source>Audio</source>
         <translation>Dźwięk</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="50"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="62"/>
         <source>Haptics</source>
         <translation>Wibracje</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="55"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="67"/>
         <source>Non graphical feedback</source>
         <translation>Niegraficzna odpowiedź</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="60"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="72"/>
         <source>Touch test</source>
         <translation>Test dotyku</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MainPage.qml" line="78"/>
+        <location filename="../src/qml/pages/MainPage.qml" line="90"/>
         <source>passed %1 of %2</source>
         <translation>%1 z %2 testów powiodło się</translation>
     </message>
@@ -247,57 +394,62 @@
 <context>
     <name>NgfPage</name>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="25"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="26"/>
         <source>Non graphical feedback</source>
         <translation>Niegraficzna odpowiedź</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="35"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="42"/>
+        <source>Select event</source>
+        <translation>Wybierz wydarzenie</translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/NgfPage.qml" line="64"/>
         <source>test</source>
         <translation>przetestuj</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="46"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="75"/>
         <source>Connected</source>
         <translation>Połączony</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="46"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="75"/>
         <source>Not connected</source>
         <translation>Niepołączony</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="50"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="79"/>
         <source>Event: %1</source>
         <translation>Wydarzenie: %1</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="55"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="84"/>
         <source>Stopped</source>
         <translation>Zatrzymano</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="57"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="86"/>
         <source>Failed</source>
         <translation>Niepowodzenie</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="59"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="88"/>
         <source>Playing</source>
         <translation>Odtwarzanie</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="61"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="90"/>
         <source>Paused</source>
         <translation>Spauzowano</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="61"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="90"/>
         <source>Unknown</source>
         <translation>Nieznane</translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/NgfPage.qml" line="67"/>
+        <location filename="../src/qml/pages/NgfPage.qml" line="96"/>
         <source>Have you had some feedback?</source>
         <translation>Czy coś się stało?</translation>
     </message>
