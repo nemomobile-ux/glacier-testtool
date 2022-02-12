@@ -48,11 +48,23 @@ Page {
     }
 
     MouseArea{
-        anchors.fill: parent
+        anchors.fill: checkGrid
         onPositionChanged:  {
+
+            if ((mouse.x >= width) || (mouse.x < 0)) {
+                return;
+            }
+            if ((mouse.y >= height) || (mouse.y < 0)) {
+                return;
+            }
 
             var coordX = parseInt(mouse.x / itemWidth)
             var coordY = parseInt(mouse.y / itemHeight)
+
+            if (coordX >= columnsCount) {
+                // outside of grid (overflow to next row)
+                return;
+            }
             var index = coordY * columnsCount + coordX
 
             if (!repeater.itemAt(index).checked) {
