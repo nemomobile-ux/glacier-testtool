@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pages/MagnetometerPage.qml</file>
+        <file>pages/MainPage.qml</file>
+        <file>pages/HapticsPage.qml</file>
+        <file>pages/AudioPage.qml</file>
+        <file>pages/CompassPage.qml</file>
+        <file>pages/LightPage.qml</file>
+        <file>pages/NgfPage.qml</file>
+        <file>pages/OrientationPage.qml</file>
+        <file>pages/AccelerometerPage.qml</file>
+        <file>pages/GyroscopePage.qml</file>
+        <file>pages/TouchPage.qml</file>
+        <file>pages/ProximityPage.qml</file>
+        <file>glacier-testtool.qml</file>
+    </qresource>
+</RCC>

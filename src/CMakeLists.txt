@@ -2,7 +2,9 @@ set(SRC
     main.cpp
 )
 
-add_executable(glacier-testtool ${SRC})
+qtquick_compiler_add_resources(RESOURCES qml/glacier-testtool.qrc)
+
+add_executable(glacier-testtool ${SRC} ${RESOURCES})
 
 target_link_libraries(glacier-testtool
 	Qt5::Gui
@@ -14,5 +16,3 @@ target_link_libraries(glacier-testtool
 
 install(TARGETS glacier-testtool RUNTIME
 	DESTINATION ${CMAKE_INSTALL_BINDIR})
-install(DIRECTORY qml
-	DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/glacier-testtool)
