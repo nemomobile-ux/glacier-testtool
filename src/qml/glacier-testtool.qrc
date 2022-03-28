@@ -13,5 +13,6 @@
         <file>pages/TouchPage.qml</file>
         <file>pages/ProximityPage.qml</file>
         <file>glacier-testtool.qml</file>
+        <file>./images/compass-rose.png</file>
     </qresource>
 </RCC>
