@@ -72,9 +72,9 @@ Page {
         case Audio.Buffered: return qsTr('The media has buffered data.')
         case Audio.EndOfMedia: return qsTr('The media has played to the end.')
         case Audio.InvalidMedia: return qsTr('The media cannot be played.')
-        case Audio.UnknownStatus: return qsTr('The status of the media is unknown.')
+        case Audio.UnknownStatus:
+        default: return qsTr('The status of the media is unknown.')
         }
-        return qsTr('Media status is unknown')
     }
 
 }

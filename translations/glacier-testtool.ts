@@ -153,15 +153,9 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="75"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="75"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="76"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="76"/>
         <source>The status of the media is unknown.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="77"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="77"/>
-        <source>Media status is unknown</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
