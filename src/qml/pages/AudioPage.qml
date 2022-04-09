@@ -47,11 +47,13 @@ Page {
         Label {
             text:  audioStatusToString(player.status)
             width: parent.width
+            wrapMode: Text.WordWrap
         }
 
         Label {
             text: player.errorString
             width: parent.width
+            wrapMode: Text.WordWrap
         }
 
     }
