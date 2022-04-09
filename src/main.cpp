@@ -34,7 +34,7 @@ Q_DECL_EXPORT int main(int argc, char *argv[])
     app->setOrganizationName("NemoMobile");
     QQuickWindow *window = GlacierApp::showWindow();
     window->setTitle(QObject::tr("Hardware test"));
-    window->setIcon(QIcon("/usr/share/glacier-tester/images/glacier-tester.png"));
+    window->setIcon(QIcon("/usr/share/glacier-testtool/icons/glacier-testtool.png"));
 
     return app->exec();
 }
