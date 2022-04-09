@@ -46,7 +46,7 @@ Page {
 
     Audio {
         id: player;
-        source: "/usr/share/sounds/glacier/stereo/ring-1.ogg"
+        source: "file:///usr/share/sounds/glacier/stereo/ring-1.ogg"
     }
 
 }
