@@ -7,7 +7,7 @@
         <location filename="../src/qml/pages/AccelerometerPage.qml" line="23"/>
         <location filename="../src/qml/pages/AccelerometerPage.qml" line="64"/>
         <source>Accelerometers</source>
-        <translation>Beschleinigungssensor</translation>
+        <translation>Beschleunigungssensor</translation>
     </message>
     <message>
         <location filename="../src/qml/pages/AccelerometerPage.qml" line="39"/>
