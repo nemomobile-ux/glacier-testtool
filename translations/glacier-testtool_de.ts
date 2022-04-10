@@ -522,7 +522,7 @@
         <location filename="../src/qml/pages/MainPage.qml" line="90"/>
         <location filename="../src/qml/pages/MainPage.qml" line="90"/>
         <source>passed %1 of %2</source>
-        <translation>%1 von %2 absolviert</translation>
+        <translation>%1 von %2 erfolgreich</translation>
     </message>
 </context>
 <context>
