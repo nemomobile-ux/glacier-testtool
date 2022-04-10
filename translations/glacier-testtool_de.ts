@@ -295,7 +295,7 @@
         <location filename="../src/qml/pages/HapticsPage.qml" line="50"/>
         <location filename="../src/qml/pages/HapticsPage.qml" line="50"/>
         <source>Disabled</source>
-        <translation>ausschalten</translation>
+        <translation>Deaktiviert</translation>
     </message>
     <message>
         <location filename="../src/qml/pages/HapticsPage.qml" line="56"/>
