@@ -319,7 +319,7 @@
         <location filename="../src/qml/pages/HapticsPage.qml" line="65"/>
         <location filename="../src/qml/pages/HapticsPage.qml" line="65"/>
         <source>Have you had some feedback?</source>
-        <translation>Hast du Feedback?</translation>
+        <translation>Wurde Feedback ausgegeben?</translation>
     </message>
 </context>
 <context>
