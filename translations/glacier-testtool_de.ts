@@ -289,7 +289,7 @@
         <location filename="../src/qml/pages/HapticsPage.qml" line="50"/>
         <location filename="../src/qml/pages/HapticsPage.qml" line="50"/>
         <source>Enabled</source>
-        <translation>einschalten</translation>
+        <translation>Aktiviert</translation>
     </message>
     <message>
         <location filename="../src/qml/pages/HapticsPage.qml" line="50"/>
