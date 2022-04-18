@@ -105,56 +105,56 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="67"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="67"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="69"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="69"/>
         <source>No media has been set.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="68"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="68"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="70"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="70"/>
         <source>The media is currently being loaded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="69"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="69"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="71"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="71"/>
         <source>The media has been loaded.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="70"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="70"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="72"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="72"/>
         <source>The media is buffering data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="71"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="71"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="73"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="73"/>
         <source>Playback has been interrupted while the media is buffering data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="72"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="72"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="74"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="74"/>
         <source>The media has buffered data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="73"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="73"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="75"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="75"/>
         <source>The media has played to the end.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="74"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="74"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="76"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="76"/>
         <source>The media cannot be played.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/AudioPage.qml" line="76"/>
-        <location filename="../src/qml/pages/AudioPage.qml" line="76"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="78"/>
+        <location filename="../src/qml/pages/AudioPage.qml" line="78"/>
         <source>The status of the media is unknown.</source>
         <translation type="unfinished"></translation>
     </message>
