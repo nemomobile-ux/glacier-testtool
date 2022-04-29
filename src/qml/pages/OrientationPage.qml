@@ -62,7 +62,7 @@ Page {
                 model: test_orientations
                 ListViewItemWithActions {
                     width: parent.width;
-                    label: orientation_to_string(value)
+                    label: orientation_to_string(orientation)
                     icon: (passed) ? "image://theme/check" : "image://theme/times";
                     showNext: false
                 }
@@ -76,31 +76,13 @@ Page {
 
     ListModel {
         id: test_orientations
-        ListElement { value: OrientationReading.TopUp; passed: false; }
-        ListElement { value: OrientationReading.TopDown; passed: false; }
-        ListElement { value: OrientationReading.LeftUp; passed: false; }
-        ListElement { value: OrientationReading.RightUp; passed: false; }
-        ListElement { value: OrientationReading.FaceUp; passed: false; }
-        ListElement { value: OrientationReading.FaceDown; passed: false; }
+        ListElement { orientation: OrientationReading.TopUp;    passed: false; }
+        ListElement { orientation: OrientationReading.TopDown;  passed: false; }
+        ListElement { orientation: OrientationReading.LeftUp;   passed: false; }
+        ListElement { orientation: OrientationReading.RightUp;  passed: false; }
+        ListElement { orientation: OrientationReading.FaceUp;   passed: false; }
+        ListElement { orientation: OrientationReading.FaceDown; passed: false; }
     }
-
-    function updateTestValues(current) {
-        passedCount = 0;
-        for (var i = 0; i < test_orientations.count; i++) {
-            var o = test_orientations.get(i)
-            if (o.value === current) {
-                test_orientations.setProperty(i, "passed", true)
-            }
-            if (o.passed) {
-                passedCount++;
-            }
-        }
-        if (passedCount !== passedNumber) {
-            passedNumber = passedCount;
-            passedTests(passedNumber)
-        }
-    }
-
 
     OrientationSensor {
         id: orient
@@ -109,6 +91,24 @@ Page {
         onReadingChanged: {
             lastOrientation = reading.orientation;
             updateTestValues(reading.orientation)
+        }
+    }
+
+    function updateTestValues(reading) {
+        console.log("reading " + reading)
+        var passedCount = 0;
+        for (var i = 0; i < test_orientations.count; i++) {
+            var item = test_orientations.get(i)
+            if (item.orientation === reading) {
+                test_orientations.setProperty(i, "passed", true)
+            }
+            if (item.passed) {
+                passedCount++;
+            }
+        }
+        if (passedCount !== passedNumber) {
+            passedNumber = passedCount;
+            passedTests(passedNumber)
         }
     }
 
