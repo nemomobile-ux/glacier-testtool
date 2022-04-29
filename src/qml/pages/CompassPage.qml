@@ -38,6 +38,7 @@ Page {
                 id: azimuthLabel
                 text: qsTr("azimuth = %1").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
 
             Image {

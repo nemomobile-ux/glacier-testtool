@@ -169,17 +169,17 @@
     </message>
     <message>
         <location filename="../src/qml/pages/CompassPage.qml" line="39"/>
-        <location filename="../src/qml/pages/CompassPage.qml" line="84"/>
+        <location filename="../src/qml/pages/CompassPage.qml" line="85"/>
         <location filename="../src/qml/pages/CompassPage.qml" line="39"/>
-        <location filename="../src/qml/pages/CompassPage.qml" line="84"/>
+        <location filename="../src/qml/pages/CompassPage.qml" line="85"/>
         <source>azimuth = %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/CompassPage.qml" line="53"/>
-        <location filename="../src/qml/pages/CompassPage.qml" line="86"/>
-        <location filename="../src/qml/pages/CompassPage.qml" line="53"/>
-        <location filename="../src/qml/pages/CompassPage.qml" line="86"/>
+        <location filename="../src/qml/pages/CompassPage.qml" line="54"/>
+        <location filename="../src/qml/pages/CompassPage.qml" line="87"/>
+        <location filename="../src/qml/pages/CompassPage.qml" line="54"/>
+        <location filename="../src/qml/pages/CompassPage.qml" line="87"/>
         <source>Calibration level = %1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -374,74 +374,74 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="44"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="44"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="45"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="45"/>
         <source>identifier: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="47"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="47"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="51"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="51"/>
         <source>type: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="50"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="50"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="56"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="56"/>
         <source>description: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="53"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="53"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="61"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="61"/>
         <source>bufferSize: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="56"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="56"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="66"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="66"/>
         <source>efficientBufferSize : %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="59"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="59"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="71"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="71"/>
         <source>connected: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="62"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="62"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="76"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="76"/>
         <source>skipDuplicates: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="65"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="65"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="81"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="81"/>
         <source>error: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="68"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="68"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="86"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="86"/>
         <source>active: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="72"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="72"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="92"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="92"/>
         <source>rate: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="76"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="76"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="98"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="98"/>
         <source>return geo values: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="100"/>
-        <location filename="../src/qml/pages/MagnetometerPage.qml" line="100"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="124"/>
+        <location filename="../src/qml/pages/MagnetometerPage.qml" line="124"/>
         <source>x = %1; y = %2; z = %3; c = %4</source>
         <translation type="unfinished"></translation>
     </message>
@@ -605,21 +605,81 @@
 <context>
     <name>OrientationPage</name>
     <message>
-        <location filename="../src/qml/pages/OrientationPage.qml" line="22"/>
-        <location filename="../src/qml/pages/OrientationPage.qml" line="22"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="23"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="23"/>
         <source>Orientation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/OrientationPage.qml" line="49"/>
-        <location filename="../src/qml/pages/OrientationPage.qml" line="49"/>
-        <source>Portrait</source>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="40"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="40"/>
+        <source>Orientation: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/qml/pages/OrientationPage.qml" line="57"/>
-        <location filename="../src/qml/pages/OrientationPage.qml" line="57"/>
-        <source>Landscape</source>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="46"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="46"/>
+        <source>Identifier: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="51"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="51"/>
+        <source>Type: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="56"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="56"/>
+        <source>Rate: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="117"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="117"/>
+        <source>Undefined</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="118"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="118"/>
+        <source>Top Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="119"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="119"/>
+        <source>Top Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="120"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="120"/>
+        <source>Left Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="121"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="121"/>
+        <source>Right Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="122"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="122"/>
+        <source>Face Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="123"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="123"/>
+        <source>Face Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="124"/>
+        <location filename="../src/qml/pages/OrientationPage.qml" line="124"/>
+        <source>Unknown</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
