@@ -38,39 +38,60 @@ Page {
                 id: testLabel
                 text: qsTr("x = %1; y = %2; z = %3").arg("-").arg("-").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
 
 
             Label {
-                text: qsTr("identifier: %1").arg(gyro.identifier)
+                text: qsTr("Identifier: %1").arg(gyro.identifier)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("type: %1").arg(gyro.type)
+                text: qsTr("Type: %1").arg(gyro.type)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("description: %1").arg(gyro.description)
+                text: qsTr("Description: %1").arg(gyro.description)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("bufferSize: %1").arg(gyro.bufferSize)
+                text: qsTr("Buffer size: %1").arg(gyro.bufferSize)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("efficientBufferSize : %1").arg(gyro.efficientBufferSize )
+                text: qsTr("Efficient buffer size : %1").arg(gyro.efficientBufferSize )
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("connected: %1").arg(gyro.connectedToBackend)
+                text: qsTr("Connected: %1").arg(gyro.connectedToBackend)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("skipDuplicates: %1").arg(gyro.skipDuplicates )
+                text: qsTr("Skip duplicates: %1").arg(gyro.skipDuplicates )
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("error: %1").arg(gyro.error)
+                text: qsTr("Error: %1").arg(gyro.error)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("active: %1").arg(gyro.active)
+                text: qsTr("Active: %1").arg(gyro.active)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
 
             Label {
-                text: qsTr("rate: %1").arg(gyro.dataRate)
+                text: qsTr("Rate: %1").arg(gyro.dataRate)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
 
 

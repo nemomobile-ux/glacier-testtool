@@ -38,25 +38,34 @@ Page {
                 id: testLabel
                 text: qsTr("x = %1; y = %2; z = %3").arg("-").arg("-").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 id: vectorLabel
                 text: qsTr("vector = %1 m/s²").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 id: movementLabel
                 text: qsTr("movement = %2 m/s²").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("identifier: %1").arg(accel.identifier)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("type: %1").arg(accel.type)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("rate: %1").arg(accel.dataRate)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
 
 

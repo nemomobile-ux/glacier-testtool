@@ -38,6 +38,7 @@ Page {
                 id: azimuthLabel
                 text: qsTr("azimuth = %1").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
 
             Image {
@@ -52,6 +53,7 @@ Page {
                 id: calibrationLevelLabel
                 text: qsTr("Calibration level = %1").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
 
 /*
@@ -81,7 +83,7 @@ Page {
 
 
         onReadingChanged: {
-            azimuthLabel.text = qsTr("azimuth = %1").arg(reading.azimuth)
+            azimuthLabel.text = qsTr("Azimuth = %1").arg(reading.azimuth)
             roseImage.rotation = -reading.azimuth
             calibrationLevelLabel.text = qsTr("Calibration level = %1").arg(reading.calibrationLevel)
         }

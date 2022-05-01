@@ -29,7 +29,7 @@ Page {
         }
         ListElement {
             name: qsTr("Orientation sensor")
-            total: 2;
+            total: 6;
             pageUrl: "OrientationPage.qml"
         }
         ListElement {

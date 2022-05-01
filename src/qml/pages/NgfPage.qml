@@ -73,22 +73,30 @@ Page {
 
         Label {
             text: feedback.connected ? qsTr("Connected") : qsTr("Not connected")
+            width: parent.width;
+            wrapMode: Text.Wrap
         }
 
         Label {
             text: qsTr("Event: %1").arg(feedback.event)
+            width: parent.width;
+            wrapMode: Text.Wrap
         }
 
         Label {
-            text: (feedback.status === NonGraphicalFeedback.Stopped)
-                  ? qsTr("Stopped") :
-                    (feedback.status === NonGraphicalFeedback.Failed)
-                    ? qsTr("Failed") :
-                      (feedback.status === NonGraphicalFeedback.Playing)
-                      ? qsTr("Playing") :
-                        (feedback.status === NonGraphicalFeedback.Paused)
-                        ? qsTr("Paused") : qsTr("Unknown")
+            text: ngf_status_to_string(feedback.status)
+            width: parent.width;
+            wrapMode: Text.Wrap
+        }
 
+        function ngf_status_to_string(s) {
+            switch(s) {
+            case NonGraphicalFeedback.Stopped: return qsTr("Stopped");
+            case NonGraphicalFeedback.Failed:  return qsTr("Failed");
+            case NonGraphicalFeedback.Playing: return qsTr("Playing");
+            case NonGraphicalFeedback.Paused: return qsTr("Paused");
+            default: return qsTr("Unknown");
+            }
         }
 
         CheckBox {

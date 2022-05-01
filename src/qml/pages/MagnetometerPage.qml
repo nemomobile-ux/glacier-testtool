@@ -39,41 +39,65 @@ Page {
                 id: testLabel
                 text: qsTr("x = %1; y = %2; z = %3").arg("-").arg("-").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("identifier: %1").arg(magnet.identifier)
+                width: parent.width;
+                wrapMode: Text.Wrap
+
             }
             Label {
                 text: qsTr("type: %1").arg(magnet.type)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("description: %1").arg(magnet.description)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("bufferSize: %1").arg(magnet.bufferSize)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("efficientBufferSize : %1").arg(magnet.efficientBufferSize )
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("connected: %1").arg(magnet.connectedToBackend)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("skipDuplicates: %1").arg(magnet.skipDuplicates )
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("error: %1").arg(magnet.error)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
                 text: qsTr("active: %1").arg(magnet.active)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
 
             Label {
                 text: qsTr("rate: %1").arg(magnet.dataRate)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
 
             Label {
                 text: qsTr("return geo values: %1").arg(magnet.returnGeoValues)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
 
 

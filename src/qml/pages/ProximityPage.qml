@@ -37,19 +37,26 @@ Page {
 
 
             Label {
-                text: qsTr("identifier: %1").arg(proximitySensor.identifier)
+                text: qsTr("Identifier: %1").arg(proximitySensor.identifier)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("type: %1").arg(proximitySensor.type)
+                text: qsTr("Type: %1").arg(proximitySensor.type)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
             Label {
-                text: qsTr("rate: %1").arg(proximitySensor.dataRate)
+                text: qsTr("Rate: %1").arg(proximitySensor.dataRate)
+                width: parent.width;
+                wrapMode: Text.Wrap
             }
 
             Label {
                 id: proximityLabel
-                text: qsTr("proximity = %1").arg("-")
+                text: qsTr("Proximity = %1").arg("-")
                 width: parent.width;
+                wrapMode: Text.Wrap
             }
 
 
