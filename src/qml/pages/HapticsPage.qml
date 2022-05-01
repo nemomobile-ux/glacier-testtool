@@ -40,14 +40,21 @@ Page {
 
         Label {
             text: act.name
+            width: parent.width;
+            wrapMode: Text.Wrap
         }
 
         Label {
             text: act.valid ? qsTr("Valid") : qsTr("Invalid")
+            width: parent.width;
+            wrapMode: Text.Wrap
+
         }
 
         Label {
             text: act.enabled ? qsTr("Enabled") : qsTr("Disabled")
+            width: parent.width;
+            wrapMode: Text.Wrap
         }
 
 
@@ -56,11 +63,15 @@ Page {
                   ? qsTr("Busy")
                   : (act.state === Actuator.Ready)
                     ? qsTr("Ready") : qsTr("Unknown")
+            width: parent.width;
+            wrapMode: Text.Wrap
 
         }
 
 
         CheckBox {
+            width: parent.width;
+
             id: hapticalCheckbox
             text: qsTr("Have you had some feedback?")
         }
