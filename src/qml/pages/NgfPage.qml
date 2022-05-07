@@ -89,19 +89,19 @@ Page {
             wrapMode: Text.Wrap
         }
 
-        function ngf_status_to_string(s) {
-            switch(s) {
-            case NonGraphicalFeedback.Stopped: return qsTr("Stopped");
-            case NonGraphicalFeedback.Failed:  return qsTr("Failed");
-            case NonGraphicalFeedback.Playing: return qsTr("Playing");
-            case NonGraphicalFeedback.Paused: return qsTr("Paused");
-            default: return qsTr("Unknown");
-            }
-        }
-
         CheckBox {
             id: soundSheckbox
             text: qsTr("Have you had some feedback?")
+        }
+    }
+
+    function ngf_status_to_string(s) {
+        switch(s) {
+        case NonGraphicalFeedback.Stopped: return qsTr("Stopped");
+        case NonGraphicalFeedback.Failed:  return qsTr("Failed");
+        case NonGraphicalFeedback.Playing: return qsTr("Playing");
+        case NonGraphicalFeedback.Paused: return qsTr("Paused");
+        default: return qsTr("Unknown");
         }
     }
 
