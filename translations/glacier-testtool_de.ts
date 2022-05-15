@@ -583,7 +583,7 @@
         <location filename="../src/qml/pages/NgfPage.qml" line="96"/>
         <location filename="../src/qml/pages/NgfPage.qml" line="96"/>
         <source>Playing</source>
-        <translation>Abspielen</translation>
+        <translation>Wird abgespielt</translation>
     </message>
     <message>
         <location filename="../src/qml/pages/NgfPage.qml" line="97"/>
