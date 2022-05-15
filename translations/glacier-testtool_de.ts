@@ -350,7 +350,7 @@
         <location filename="../src/qml/pages/LightPage.qml" line="45"/>
         <location filename="../src/qml/pages/LightPage.qml" line="45"/>
         <source>rate: %1</source>
-        <translation>Geschwindigkeit: %1</translation>
+        <translation>Rate: %1</translation>
     </message>
     <message>
         <location filename="../src/qml/pages/LightPage.qml" line="51"/>
