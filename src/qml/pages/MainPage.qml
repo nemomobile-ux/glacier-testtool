@@ -1,11 +1,6 @@
-import QtQuick 2.6
-import QtQuick.Window 2.1
-
-import QtQuick.Controls 1.0
-import QtQuick.Controls.Nemo 1.0
-import QtQuick.Controls.Styles.Nemo 1.0
-
-import QtSensors 5.15
+import QtQuick
+import Nemo.Controls
+import QtSensors
 
 Page {
     id: mainPage
@@ -89,7 +84,7 @@ Page {
             label: name
             description: qsTr("passed %1 of %2").arg( (passed < 0) ? 0 : passed ).arg(total)
             onClicked: {
-                var itemPage = pageStack.push(Qt.resolvedUrl(pageUrl))
+                var itemPage = main.pageStack.push(Qt.resolvedUrl(pageUrl))
                 itemPage.passedTests.connect(function(num) {
                     passed = num
                 })
