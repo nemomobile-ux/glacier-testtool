@@ -1,12 +1,7 @@
-import QtQuick 2.6
-import QtQuick.Window 2.1
-
-import QtQuick.Controls 1.0
-import QtQuick.Controls.Nemo 1.0
-import QtQuick.Controls.Styles.Nemo 1.0
-
-import org.nemomobile.folderlistmodel 1.0
-import Nemo.Ngf 1.0
+import QtQuick
+import Nemo.Controls
+import org.nemomobile.folderlistmodel
+import Nemo.Ngf
 
 Page {
     id: page
