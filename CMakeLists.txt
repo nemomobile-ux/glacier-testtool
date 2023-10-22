@@ -13,7 +13,7 @@ set(CMAKE_INSTALL_PREFIX /usr)
 include(FeatureSummary)
 include(GNUInstallDirs)
 
-set(QT_MIN_VERSION "5.11.0")
+set(QT_MIN_VERSION "6.0.0")
 
 find_package(Qt6 COMPONENTS Gui Qml Quick Sensors Charts LinguistTools REQUIRED)
 find_package(Glacier 1.0 COMPONENTS App REQUIRED)
