@@ -11,7 +11,7 @@ Page {
     onPassedNumberChanged: {
         passedTests(passedNumber)
         if (passedNumber == 1) {
-            pageStack.pop();
+            main.pageStack.pop();
         }
     }
 

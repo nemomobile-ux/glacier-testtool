@@ -74,7 +74,7 @@ Page {
     onCheckedElementsChanged: {
         if(checkedElements == itemCount) {
             passedTests(1)
-            pageStack.pop();
+            main.pageStack.pop();
         }
     }
 }
