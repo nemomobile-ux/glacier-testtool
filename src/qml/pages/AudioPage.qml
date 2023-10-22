@@ -12,7 +12,7 @@ Page {
     onPassedNumberChanged: {
         passedTests(passedNumber)
         if (passedNumber == 1) {
-            pageStack.pop();
+            main.pageStack.pop();
         }
     }
 
@@ -55,22 +55,21 @@ Page {
     }
 
 
-    Audio {
+    MediaPlayer {
         id: player;
         source: "file:///usr/share/sounds/glacier/stereo/ring-1.ogg"
     }
 
     function audioStatusToString(status) {
         switch(status) {
-        case Audio.NoMedia: return qsTr('No media has been set.')
-        case Audio.Loading: return qsTr('The media is currently being loaded.')
-        case Audio.Loaded: return qsTr('The media has been loaded.')
-        case Audio.Buffering: return qsTr('The media is buffering data.')
-        case Audio.Stalled: return qsTr('Playback has been interrupted while the media is buffering data.')
-        case Audio.Buffered: return qsTr('The media has buffered data.')
-        case Audio.EndOfMedia: return qsTr('The media has played to the end.')
-        case Audio.InvalidMedia: return qsTr('The media cannot be played.')
-        case Audio.UnknownStatus:
+        case MediaPlayer.NoMedia: return qsTr('No media has been set.')
+        case MediaPlayer.LoadingMedia: return qsTr('The media is currently being loaded.')
+        case MediaPlayer.LoadedMedia: return qsTr('The media has been loaded.')
+        case MediaPlayer.BufferingMedia: return qsTr('The media is buffering data.')
+        case MediaPlayer.StalledMedia: return qsTr('Playback has been interrupted while the media is buffering data.')
+        case MediaPlayer.BufferedMedia: return qsTr('The media has buffered data.')
+        case MediaPlayer.EndOfMedia: return qsTr('The media has played to the end.')
+        case MediaPlayer.InvalidMedia: return qsTr('The media cannot be played.')
         default: return qsTr('The status of the media is unknown.')
         }
     }
