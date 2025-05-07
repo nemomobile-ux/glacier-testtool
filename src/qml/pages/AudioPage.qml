@@ -1,4 +1,5 @@
 import QtQuick
+import Nemo
 import Nemo.Controls
 
 import QtMultimedia
@@ -58,6 +59,7 @@ Page {
     MediaPlayer {
         id: player;
         source: "file:///usr/share/sounds/glacier/stereo/ring-1.ogg"
+        audioOutput: AudioOutput {}
     }
 
     function audioStatusToString(status) {
